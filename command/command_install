@@ -1,0 +1,13 @@
+#!/bin/sh
+
+module=config_space
+
+insmod config_space.ko  || exit 1
+
+major=$(awk "\$2==\"$module\" {print \$1}" /proc/devices)
+
+rm -f /dev/config_space
+mknod /dev/config_space c $major 0
+
+chmod 664 /dev/config_space
+

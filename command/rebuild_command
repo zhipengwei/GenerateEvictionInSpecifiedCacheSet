@@ -1,0 +1,6 @@
+#!/bin/sh
+gcc -o begin_trace begin_trace.c
+gcc -o stop_trace stop_trace.c
+gcc -o pause_trace pause_trace.c
+gcc -o soft_trace soft_reset.c
+gcc -o hard_trace hard_reset.c

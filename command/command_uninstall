@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rmmod config_space || exit 1
+
+rm -f /dev/config_space

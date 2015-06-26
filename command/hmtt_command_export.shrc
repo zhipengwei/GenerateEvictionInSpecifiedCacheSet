@@ -1,0 +1,3 @@
+PATH=$PATH:/home/czh/hmtt/command
+
+export PATH

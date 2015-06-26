@@ -1,0 +1,1 @@
+cmd_/home/wzp/8k_address/ioremap_noncache/ioremap.ko := ld -m elf_x86_64 -r -o /home/wzp/8k_address/ioremap_noncache/ioremap.ko /home/wzp/8k_address/ioremap_noncache/ioremap.o /home/wzp/8k_address/ioremap_noncache/ioremap.mod.o
